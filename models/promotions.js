@@ -28,7 +28,8 @@ PromotionSchema = new Schema({
         required: true
     },
     featured: {
-        type:String,
+        type:Boolean,
+        default:false,
         required:true
     },
 },
